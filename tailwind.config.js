@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        Primary: '#ed4d67',
+        primary: '#ed4d67',
+        secondary: '#C53E54',
         blur: 'rgba(0, 0, 0, .4)',
       },
       fontFamily: {

@@ -1,30 +1,32 @@
-# React + TypeScript + Vite
+# Bem-Vindo ao Projeto Missionário de Férias 🌍✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao site do Projeto Missionário de Férias! Aqui você pode conhecer mais sobre nossa iniciativa de proporcionar experiências de serviço e missão durante as férias escolares.
 
-Currently, two official plugins are available:
+## Sobre o Projeto ❤️💡
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O Projeto Missionário de Férias é uma oportunidade única de dedicar suas férias a ajudar comunidades carentes, compartilhando amor, esperança e recursos. Nosso objetivo é proporcionar uma experiência enriquecedora e transformadora, onde você pode fazer a diferença na vida das pessoas e também crescer pessoalmente.
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas 💻
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Este site é construído com React.js e estilizado usando Tailwind CSS para oferecer uma experiência moderna e responsiva de navegação.
 
-- Configure the top-level `parserOptions` property like this:
+## Como Contribuir 🤝
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Se você gostaria de contribuir para o desenvolvimento deste site ou tem ideias para melhorias, sinta-se à vontade para fazer um fork do repositório, fazer suas alterações e enviar um pull request. Sua colaboração é muito bem-vinda!
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Contribuidores 🌟
+
+- [@GuilhermeLD](https://github.com/exemplo1](https://github.com/GuilhermeLD)
+- [@Rubrock]([https://github.com/exemplo2](https://github.com/RuBrock))
+
+## Instagram 📸
+
+Siga-nos no Instagram [@promife](https://www.instagram.com/promife) para atualizações e fotos dos nossos projetos missionários!
+
+## Site 🌐
+
+Para mais informações, visite nosso [site oficial](https://www.promife.com.br).
+
+## Licença 📝
+
+Este projeto é licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT).

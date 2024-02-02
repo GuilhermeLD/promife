@@ -16,16 +16,17 @@ Se você gostaria de contribuir para o desenvolvimento deste site ou tem ideias 
 
 ## Contribuidores 🌟
 
-- [@GuilhermeLD](https://github.com/exemplo1](https://github.com/GuilhermeLD)
-- [@Rubrock]([https://github.com/exemplo2](https://github.com/RuBrock))
+- [Guilherme Lima](https://github.com/GuilhermeLD)
+- [Rubens Brock](https://github.com/RuBrock)
+
 
 ## Instagram 📸
 
-Siga-nos no Instagram [@promife](https://www.instagram.com/promife) para atualizações e fotos dos nossos projetos missionários!
+Siga-nos no Instagram [@Promife](https://www.instagram.com/promife) para atualizações e fotos dos nossos projetos missionários!
 
 ## Site 🌐
 
-Para mais informações, visite nosso [site oficial](https://www.promife.com.br).
+Para mais informações, visite nosso [Site oficial](https://www.promife.com.br).
 
 ## Licença 📝
 

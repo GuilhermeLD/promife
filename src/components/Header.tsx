@@ -19,7 +19,7 @@ function Header() {
           about us
         </a>
         <a href="" className="hover:text-primary">
-          structure
+          structureg
         </a>
         <a href="" className="hover:text-primary">
           testimonials

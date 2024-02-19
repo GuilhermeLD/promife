@@ -19,7 +19,7 @@ function Hero() {
       title,
       {
         opacity: 0,
-        y: 100,
+        y: -100,
       },
       {
         opacity: 1,

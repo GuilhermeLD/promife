@@ -1,25 +1,19 @@
-import ButtonLogin from './ButtonLogin'
-
 function Header() {
   return (
-    <header
-      className="nav h-18 w-full flex fixed top-0 px-[100] py-5 bg-zinc-700 justify-center"
-      id="nav"
-    >
-      <div className="flex-1 px-12 text-white uppercase pt-1">
+    <header className=" flex items-center justify-between fixed top-7 left-1/2 -translate-x-1/2 rounded-full bg-zinc-900 py-3 pl-3 pr-4">
+      <div>
         <img
           src="./public/img/logo-white.png"
           alt="Logo"
-          className="w-12 ml-40"
+          className="w-12"
         ></img>
-        {/* <h1>Promife</h1> */}
       </div>
-      <div className="flex flex-1 text-white gap-4 py-2 ">
+      <div className="flex text-white gap-3 ml-32">
         <a href="" className="hover:text-primary hover:border-">
           about us
         </a>
         <a href="" className="hover:text-primary">
-          structureg
+          structure
         </a>
         <a href="" className="hover:text-primary">
           testimonials
@@ -31,8 +25,11 @@ function Header() {
           contact
         </a>
       </div>
-      <div className="flex flex-1 pl-[180px]">
-        <ButtonLogin />
+      <div className="h-10 w-px mx-8 bg-white"></div>
+      <div>
+        <a href="" className="text-white hover:text-primary">
+          login
+        </a>
       </div>
     </header>
   )

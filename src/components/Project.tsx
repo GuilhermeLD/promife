@@ -2,7 +2,7 @@ import { Check, Target, BookHeart } from 'lucide-react'
 
 function Project() {
   return (
-    <div className="flex flex-col items-center bg-slate-200 py-16 px-72 text-center">
+    <div className="flex flex-col items-center bg-slate-200 py-16 px-72 text-center h-screen justify-center">
       <h2 className="uppercase text-title font-semibold text-4xl pb-8">
         O Projeto
       </h2>

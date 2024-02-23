@@ -1,6 +1,6 @@
 function Structure() {
   return (
-    <div className="bg-red-50 text-text">
+    <div className="bg-red-200 text-text h-auto w-full relative">
       <div className="flex flex-col items-center text-center px-72">
         <span className="uppercase text-title text-4xl font-semibold py-9">
           Estrutura
@@ -19,11 +19,11 @@ function Structure() {
         </p>
       </div>
       <div className="flex flex-col pt-14">
-        <div className="flex absolute left-1/2 -translate-x-28">
+        <div className="flex relative left-1/2 -translate-x-28">
           <img
             src="./public/img/evangelismo.jpg"
             alt=""
-            className="size-60 rounded-full"
+            className="size-52 rounded-full"
           />
           <div className="flex flex-col gap-5 pl-12 pt-7">
             <span className="text-title font-semibold text-2xl">
@@ -38,13 +38,14 @@ function Structure() {
           </div>
         </div>
 
-        <div className="flex absolute left-1/2 -translate-x-28 translate-y-full pt-16">
+        <div className="flex relative left-1/2 -translate-x-28 ">
           <img
             src="./public/img/criancas.jpg"
             alt=""
-            className="size-60 rounded-full"
+            className="size-52 rounded-full"
           />
-          <div className="flex flex-col gap-5 -translate-x-full pr-[300px] text-end">
+
+          <div className="flex flex-col gap-5 -translate-x-full pr-[300px] text-end pl-[300px]">
             <span className="text-title font-semibold text-2xl">
               Trabalho com Crianças
             </span>
@@ -58,31 +59,52 @@ function Structure() {
           </div>
         </div>
 
-        <div className="flex absolute left-1/2 -translate-x-28 translate-y-full pt-60">
+        <div className="flex relative left-1/2 -translate-x-28">
           <img
             src="./public/img/panto.jpg"
             alt=""
-            className="size-60 rounded-full"
+            className="size-52 rounded-full"
           />
           <div className="flex flex-col gap-5 pl-12 pt-7">
             <span className="text-title font-semibold text-2xl">
               Artes e Multimídia
             </span>
-            <p className="pr-28 text-light font-light">
+            <p className="pr-28 text-light font-light line-clamp-3">
               Durante a noite todos promifeístas se juntam com a sua equipe e
               são realizadas ações em praças e em espaços públicos no meio da
               comunidade que ofereçam bastante visibilidade.
             </p>
           </div>
         </div>
-        <div className="pt-[820px] pb-10">
-          <div className="size-60 bg-primary rounded-full flex absolute left-1/2 -translate-x-28 translate-y-full pt-20 pb-10">
+
+        <div className="">
+          <div className="size-60 bg-primary rounded-full flex relative left-1/2 -translate-x-28 pt-20 pb-10">
             <a className="text-white font-bold text-2xl text-center">
               Faça parte também
             </a>
           </div>
         </div>
       </div>
+      {/* <div className="flex relative left-1/2">
+        <ul className="">
+          <li>
+            <img
+              src="./public/img/evangelismo.jpg"
+              alt=""
+              className="rounded-full size-52 left-1/2"
+            />
+            <div className="">
+              <span className="text-title text-2xl">Evangelismo</span>
+              <p className="font-light px-60">
+                O evangelismo na comunidade é a maior ação do projeto. Durante a
+                tarde os jovens são divididos em grupos de dois ou três e
+                visitam casas oferecendo aos moradores da região um encontro
+                para que possam ouvir mais sobre o evangelho.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div> */}
     </div>
   )
 }

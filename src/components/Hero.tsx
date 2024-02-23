@@ -51,8 +51,8 @@ function Hero() {
   }, [])
   return (
     <>
-      <div className=" text-center text-white bg-home bg-no-repeat bg-scroll bg-center bg-cover">
-        <div className="bg-blur">
+      <div className=" text-center text-white bg-home bg-no-repeat bg-scroll bg-center bg-cover h-screen">
+        <div className="bg-blur h-screen">
           <div className="container my-0 mx-auto px-4">
             <div className="intro-text pt-80 pb-40">
               <div className="font-bold text-8xl uppercase mb-5" ref={titleRef}>

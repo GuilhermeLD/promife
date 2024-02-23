@@ -1,6 +1,6 @@
 function nextEvent() {
   return (
-    <div className="h-auto flex flex-col items-center py-20 px-52 bg-date ">
+    <div className="h-auto flex flex-col items-center py-20 px-52 bg-date">
       <div className="font-semibold uppercase text-white  flex flex-col content-center">
         <span className="text-4xl pb-4">Proximo Promifé</span>
         <p className="flex justify-center text-2xl pb-4">Franca - SP</p>

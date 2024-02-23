@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <header className=" flex items-center justify-between fixed top-7 left-1/2 -translate-x-1/2 rounded-full bg-zinc-900 py-3 pl-3 pr-4">
+    <header className=" flex items-center justify-between fixed top-7 left-1/2 -translate-x-1/2 rounded-full bg-zinc-900 py-3 pl-3 pr-4 z-10">
       <div>
         <img
           src="./public/img/logo-white.png"

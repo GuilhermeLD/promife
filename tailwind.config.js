@@ -17,6 +17,7 @@ export default {
       backgroundImage: {
         home: "url('/img/promi-bg.jpg')",
         home2: "url('/img/promi-bg2.jpg')",
+        mapImage: "url('/img/map-image.png')",
       },
     },
   },

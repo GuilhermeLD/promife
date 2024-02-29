@@ -49,6 +49,7 @@ function Testimonials() {
               alt=""
               className="size-[400px] object-cover flex justify-center"
             />
+
             <p className="text-center text-pretty whitespace-pre pt-4">
               "Eu sou a Pamela e vou contar um pouco do que aconteceu comigo no
               Promifé. Ele nos perdoa, e deseja nos usar, apesar de nós. A

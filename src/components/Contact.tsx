@@ -1,12 +1,10 @@
-import { TextArea } from '@radix-ui/themes'
-
 function Contact() {
   return (
     <div className=" bg-slate-800 py-12 bg-mapImage ">
       <h2 className="flex justify-center uppercase font-semibold text-white text-4xl">
         Contato
       </h2>
-      <div className="flex justify-center gap-10">
+      <form className="flex justify-center gap-10">
         <div className="grid gap-4 py-4 ">
           <input
             type="text"
@@ -31,12 +29,12 @@ function Contact() {
           />
         </div>
         <div className="flex">
-          <TextArea
+          <textarea
             placeholder="Diga aqui oq tu queres meu amor"
-            className="py-4 rounded-md placeholder:text-title outline-none"
+            className="p-2 rounded-md placeholder:text-title outline-none min-h-4 max-h-44 mt-4 w-80"
           />
         </div>
-      </div>
+      </form>
     </div>
   )
 }
